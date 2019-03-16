@@ -16,9 +16,7 @@ class SelectionController: UIStackView {
     }
     
     var selectionType = SelectionType.checkBoxButtons // default
-    
-    @available(*, unavailable, message: "This property is reserved for Interface Builder. Use 'shape' instead.")
-    
+        
     @IBInspectable var selectionTypeName: String? {
         willSet {
 
